@@ -1,0 +1,13 @@
+default:
+    autoload: Tests/contexts
+    suites:
+        default:
+            context:
+                - FeatureContext:
+                    session:  '@session'
+    extensions:
+        Behat\Symfony2Extension: ~
+        Behat\MinkExtension:
+            sessions:
+                default:
+                    symfony2: ~
