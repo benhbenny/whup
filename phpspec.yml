@@ -1,0 +1,7 @@
+formatter.name: pretty
+
+#suites:
+#    WhupBundle:
+#        namespace: WhupBundle/Entity
+#        psr4_prefix: WhupBundle/Entity
+#        src_path: src/WhupBundle/Entity
